@@ -12,7 +12,8 @@ let useremail=undefined // or let useremail;
 const id=Symbol('123')
 const anotherid=Symbol('123')
 
-console.log(id==anotherid);// false
+// 
+// // false
 
 // const bignumber=2679386385335933568n
 
@@ -26,7 +27,7 @@ console.log(id==anotherid);// false
 // arrays, objects, Functions
 
 
-const heroes=["shaktimaan", "naagraj", "doga"]
+// const heroes=["shaktimaan", "naagraj", "doga"]
 let myobj={
     name:"vikas",      // objects
     age:22,
@@ -36,8 +37,20 @@ const myfunction=function(){
     console.log("hello");
     
 }
-console.log(typeof myfunction);
+// console.log(typeof myfunction);
 
 // bigint datatype-->undefined for null it is object
 // datatype for function-->object function
 // datatype for arrays-->object 
+
+// primitive-->stack.(pass by value)    non primitive-->heap(pass by reference)
+
+let user1={
+    email:"vy@google.com",
+    upi:"user1@ybl"
+}
+
+let user2=user1
+user2.email="vikas@gg.com"
+console.log(user1.email);
+console.log(user2.email);
