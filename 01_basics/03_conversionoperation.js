@@ -16,8 +16,30 @@
 //""-->false "vikas"-->true
 let somenumber=33
 let stringnumber=String(somenumber)
-console.log(stringnumber);
-console.log(typeof stringnumber);
+// console.log(stringnumber);
+// console.log(typeof stringnumber);
+
+
+
+
+
+let str1="vikas"
+let str2="  yadav"
+let str3=str1+str2
+// console.log(str3)
+// console.log("1"+2);
+// console.log(1+"2");
+// console.log("1"+2+2);
+// console.log(1+2+"2");
+
+// console.log(+true); -->1
+// console.log(+""); -->0
+
+
+
+
+
+
 
 
 
