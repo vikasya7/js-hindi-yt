@@ -46,13 +46,36 @@ const users=[
     }
 ]
 users[0].email
-console.log(tinderuser);
+// console.log(tinderuser);
 
-console.log(Object.keys(tinderuser)); //gives an array
-console.log(Object.values(tinderuser));// it also gives an array
-console.log((Object.entries(tinderuser)));// array ke andar array
+// console.log(Object.keys(tinderuser)); //gives an array
+// console.log(Object.values(tinderuser));// it also gives an array
+// console.log((Object.entries(tinderuser)));// array ke andar array
 
-console.log(tinderuser.hasOwnProperty('isloggedi'));
+// console.log(tinderuser.hasOwnProperty('isloggedi'));
+
+
+const course={
+    coursename:"js ",
+    price:"999",
+    teachername:"vikas"
+}
+//course.teachername
+const {teachername}=course
+console.log(teachername);
+
+// {
+//     "name":"vikas",
+//     "coursename":"jss", // for json
+//    " price":"free"     it is api
+// }
+
+// [
+//     {
+             
+//     }.   api also come in form of arrays
+// ]
+
 
 
 
